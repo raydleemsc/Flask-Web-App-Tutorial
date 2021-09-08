@@ -12,7 +12,7 @@ def application(environ, start_response):
     output += '</li>'
     output += line_break
     for env_var in environ.keys():
-        output += '<li>' + env_var + ' = ' + env_string(environ, env_var) + '</li>' + line_break
+        output += '<li>' + env_string(environ, env_var) + '</li>' + line_break
     output += '</ul>'
     response_headers = [('Content-type', 'text/html'),
                         ('Content-Length', str(len(output)))]
