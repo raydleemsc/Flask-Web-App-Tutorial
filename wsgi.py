@@ -1,5 +1,6 @@
 #!/usr/bin/python2.7
 from website import create_app as application
+application.debug = True
 #def application(environ, start_response):
 #    status = '200 OK'
 #    output = str(environ['mod_wsgi.version'])
