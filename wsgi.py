@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from website import create_app as application
 #def application(environ, start_response):
 #    status = '200 OK'
