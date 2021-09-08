@@ -1,6 +1,8 @@
-from website import create_app as application
-
-app = application()
-
-if __name__ == '__main__':
-    app.run(debug=True,port=5001)
+def application(environ, start_response):
+    status = '200 OK'
+    output = str(environ['mod_wsgi.version'])
+    response_headers = [('Content-type', 'text/plain'),
+                        ('Content-Length', str(len(output)))]
+    start_response(status, response_headers)
+    return [output]
+#from website import create_app as application
