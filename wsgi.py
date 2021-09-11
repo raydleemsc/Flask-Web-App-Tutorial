@@ -1,6 +1,7 @@
 #!/usr/bin/python2.7
-from website import create_app as application
-application.debug = True
+from website import create_app
+application = create_app()
+#application.debug = True
 # def application(environ, start_response):
 #     line_break='<br/>'
 #     status = '200 OK'
