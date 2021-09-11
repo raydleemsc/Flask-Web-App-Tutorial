@@ -1,4 +1,5 @@
 .vscode
 *.code-workspace
 website/__pycache__
-website/database.db # https://stackoverflow.com/questions/66307627/python-flask-sqlalchemy-exc-operationalerror-sqlite3-operationalerror-attempt
+website/database.db 
+# https://stackoverflow.com/questions/66307627/python-flask-sqlalchemy-exc-operationalerror-sqlite3-operationalerror-attempt
