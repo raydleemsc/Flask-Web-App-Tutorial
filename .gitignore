@@ -1,4 +1,3 @@
 .vscode
 *.code-workspace
 website/__pycache__
-website/database.db
