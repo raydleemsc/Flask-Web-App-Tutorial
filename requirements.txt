@@ -6,7 +6,7 @@ Flask-Login==0.5.0
 Flask-SQLAlchemy==2.5.1
 importlib-metadata==2.1.1
 itsdangerous==1.1.0
-Jinja2==2.11.3
+Jinja2==3.1.4
 MarkupSafe==1.1.1
 pathlib2==2.3.6
 scandir==1.10.0
